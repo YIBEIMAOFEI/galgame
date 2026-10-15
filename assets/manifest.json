@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-10-15T16:16:04.341Z",
+  "root": "assets",
+  "count": 57,
+  "files": {
+    "bg/apartment.jpg": {
+      "bytes": 113624
+    },
+    "bg/black.jpg": {
+      "bytes": 35130
+    },
+    "bg/bookstore.jpg": {
+      "bytes": 109432
+    },
+    "bg/city_street.jpg": {
+      "bytes": 180901
+    },
+    "bg/classroom.jpg": {
+      "bytes": 103213
+    },
+    "bg/classroom_blur.jpg": {
+      "bytes": 95897
+    },
+    "bg/classroom_night.jpg": {
+      "bytes": 96326
+    },
+    "bg/clubroom.jpg": {
+      "bytes": 116473
+    },
+    "bg/convenience_store.jpg": {
+      "bytes": 190612
+    },
+    "bg/corridor.jpg": {
+      "bytes": 87070
+    },
+    "bg/corridor_rain.jpg": {
+      "bytes": 104758
+    },
+    "bg/empty_classroom.jpg": {
+      "bytes": 97070
+    },
+    "bg/festival_night.jpg": {
+      "bytes": 135647
+    },
+    "bg/library.jpg": {
+      "bytes": 137997
+    },
+    "bg/old_bookstore_window.jpg": {
+      "bytes": 149156
+    },
+    "bg/riverbank_dusk.jpg": {
+      "bytes": 105497
+    },
+    "bg/rooftop_dusk.jpg": {
+      "bytes": 117283
+    },
+    "bg/rooftop_night.jpg": {
+      "bytes": 103880
+    },
+    "bg/school_gate.jpg": {
+      "bytes": 73583
+    },
+    "bg/wedding_venue.jpg": {
+      "bytes": 227920
+    },
+    "bg/white.jpg": {
+      "bytes": 24008
+    },
+    "cg/end_farewell.jpg": {
+      "bytes": 228668
+    },
+    "cg/end_friendship.jpg": {
+      "bytes": 228494
+    },
+    "cg/end_marriage.jpg": {
+      "bytes": 222992
+    },
+    "cg/event_desk_sleep.jpg": {
+      "bytes": 152404
+    },
+    "cg/event_empty_classroom.jpg": {
+      "bytes": 229841
+    },
+    "cg/event_fireworks.jpg": {
+      "bytes": 216751
+    },
+    "cg/event_rain.jpg": {
+      "bytes": 217053
+    },
+    "cg/event_rooftop.jpg": {
+      "bytes": 233707
+    },
+    "characters/kaede/neutral.png": {
+      "bytes": 7786
+    },
+    "characters/kaede/sad.png": {
+      "bytes": 7819
+    },
+    "characters/kaede/serious.png": {
+      "bytes": 9988
+    },
+    "characters/kaede/smile.png": {
+      "bytes": 7816
+    },
+    "characters/miyuki/away.png": {
+      "bytes": 663230
+    },
+    "characters/miyuki/away.webp": {
+      "bytes": 79474
+    },
+    "characters/miyuki/blush.png": {
+      "bytes": 646087
+    },
+    "characters/miyuki/blush.webp": {
+      "bytes": 79676
+    },
+    "characters/miyuki/cry.png": {
+      "bytes": 657260
+    },
+    "characters/miyuki/cry.webp": {
+      "bytes": 80092
+    },
+    "characters/miyuki/laugh.png": {
+      "bytes": 647311
+    },
+    "characters/miyuki/laugh.webp": {
+      "bytes": 80692
+    },
+    "characters/miyuki/neutral.png": {
+      "bytes": 546300
+    },
+    "characters/miyuki/neutral.webp": {
+      "bytes": 80344
+    },
+    "characters/miyuki/sad.png": {
+      "bytes": 613637
+    },
+    "characters/miyuki/sad.webp": {
+      "bytes": 80826
+    },
+    "characters/miyuki/serious.png": {
+      "bytes": 652068
+    },
+    "characters/miyuki/serious.webp": {
+      "bytes": 79186
+    },
+    "characters/miyuki/smile.png": {
+      "bytes": 654325
+    },
+    "characters/miyuki/smile.webp": {
+      "bytes": 81402
+    },
+    "characters/miyuki/surprised.png": {
+      "bytes": 641398
+    },
+    "characters/miyuki/surprised.webp": {
+      "bytes": 79626
+    },
+    "characters/miyuki/wedding.png": {
+      "bytes": 1180669
+    },
+    "characters/miyuki/wedding.webp": {
+      "bytes": 123716
+    },
+    "manifest.json": {
+      "bytes": 2900
+    },
+    "ui/favicon.png": {
+      "bytes": 51
+    },
+    "ui/logo.png": {
+      "bytes": 1939
+    },
+    "ui/textbox.png": {
+      "bytes": 3500
+    }
+  }
+}
