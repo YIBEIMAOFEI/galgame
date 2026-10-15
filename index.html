@@ -4,8 +4,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="dark" />
-  <title>无名之夏 · 视觉小说骨架</title>
-  <meta name="description" content="模块化视觉小说骨架：章节按需加载、立绘与文本可替换、一角色多结局。" />
+
+  <!--
+    标题和描述会直接变成微信/QQ 等社交软件里的分享卡片文字，
+    所以这里写的是给玩家看的话，不是给开发者看的。
+  -->
+  <title>无名之夏 · 一个关于夏天的故事</title>
+  <meta name="description" content="转学来的那个夏天，你遇见了深雪。三个结局，由你的每一个选择决定。" />
+
+  <!--
+    社交分享卡片。
+    微信、QQ、微博等抓取链接预览时优先读 og: / twitter: 这几组标签。
+
+    ⚠️⚠️ og:image 和 twitter:image 必须是**完整的绝对网址**，
+        相对路径在微信里抓不到图，卡片就只剩一行纯文字（点开率差很多）。
+
+        部署完拿到网址后，用这个命令一次替换（把网址换成你自己的）：
+            node tools/set-share-url.mjs https://你的用户名.github.io/galgame/
+
+        没设置之前这里指的是相对路径，在部分客户端上会失效 —— 但不影响游戏本身。
+  -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="无名之夏 · 一个关于夏天的故事" />
+  <meta property="og:description" content="转学来的那个夏天，你遇见了深雪。三个结局，由你的每一个选择决定。" />
+  <meta property="og:image" content="https://yibeimaofei.github.io/galgame/assets/ui/share-card.png" data-share-image />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="无名之夏" />
+  <meta property="og:url" content="https://yibeimaofei.github.io/galgame/" data-share-url />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="无名之夏 · 一个关于夏天的故事" />
+  <meta name="twitter:description" content="转学来的那个夏天，你遇见了深雪。三个结局，由你的每一个选择决定。" />
+  <meta name="twitter:image" content="https://yibeimaofei.github.io/galgame/assets/ui/share-card.png" data-share-image />
+
+  <!-- 手机上添加到主屏时的表现 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="无名之夏" />
+  <meta name="theme-color" content="#0b1020" />
 
   <!-- 把这一段改成你游戏的界面配色即可，不需要动 CSS 文件 -->
   <style>
@@ -17,7 +54,7 @@
     }
   </style>
 
-  <link rel="icon" type="image/png" href="assets/ui/favicon.png" />
+  <link rel="icon" type="image/png" href="https://yibeimaofei.github.io/galgame/assets/ui/favicon.png" />
   <link rel="stylesheet" href="src/styles/main.css" />
 </head>
 <body>
