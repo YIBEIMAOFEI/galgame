@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-base="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <title>无名之夏 · 视觉小说骨架</title>
+  <meta name="description" content="模块化视觉小说骨架：章节按需加载、立绘与文本可替换、一角色多结局。" />
+
+  <!-- 把这一段改成你游戏的界面配色即可，不需要动 CSS 文件 -->
+  <style>
+    :root {
+      --gal-accent: #7fb2e5;
+      --gal-accent-soft: #3f5d80;
+      --gal-text: #e8eef8;
+      --gal-textbox-bg: rgba(10, 14, 24, 0.82);
+    }
+  </style>
+
+  <link rel="icon" type="image/png" href="assets/ui/favicon.png" />
+  <link rel="stylesheet" href="src/styles/main.css" />
+</head>
+<body>
+  <noscript>
+    <p style="color:#fff;padding:2rem">这个游戏需要启用 JavaScript。</p>
+  </noscript>
+
+  <div id="game" class="gal-root" aria-live="polite"></div>
+
+  <!-- 引导脚本：只负责给出可读的报错，真正的逻辑在 src/main.js -->
+  <script type="module">
+    const host = document.getElementById('game');
+    const fail = (title, detail) => {
+      host.innerHTML = `
+        <div class="boot-error">
+          <h1>${title}</h1>
+          <pre>${String(detail).replace(/[<>&]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c]))}</pre>
+          <p>排查顺序：① 是否用 HTTP 打开（<code>node server.js</code> 或 <code>start.bat</code>）而不是双击 index.html；
+          ② 浏览器控制台（F12）里的第一条红色报错；③ 终端里 <code>node tools/validate.mjs</code> 的输出。</p>
+        </div>`;
+    };
+
+    try {
+      const { start } = await import('./src/main.js');
+      await start(host);
+    } catch (error) {
+      fail('启动失败', error?.stack ?? error);
+      throw error;
+    }
+  </script>
+</body>
+</html>
